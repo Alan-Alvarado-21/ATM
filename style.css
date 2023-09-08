@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+header{
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(6,81,168,1);
+    font-weight: bold;
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 85vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(148deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(6,81,168,1) 24%, rgba(20,125,187,1) 56%, rgba(12,161,215,1) 74%, rgba(0,212,255,1) 100%);;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+input{
+    margin-bottom: 20px;
+    border-radius: 8px;
+    height: 25px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+button{
+    background-color: rgba(6,81,168,1);
+    border-radius: 8px;
+    height: 20px;
+    border: none;
+    border-bottom: solid;
+}
+button:hover{
+    background-color: rgba(6,81,168,1);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#regreso{
+    display: flex;
+    border-bottom: solid;
+}
+#alerta{
+    margin-top: 15px;
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+}
+.btnCajero{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    font-size: small;
+}
+.botones{
+    margin-left: 15px;
+}
+.pantalla{
+    background-color: white;
+    text-align: center;
+    width: 250px;
+    height: 90px;
+    padding-top: -100px;
+}

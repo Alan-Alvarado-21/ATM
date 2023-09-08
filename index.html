@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>ATM | Alan Alvarado</title>
+</head>
+
+<body>
+    <header>
+        <p>ATM | Alan Alvarado</p>
+        <button onclick="pantallaInicio ()" id="regreso"><b>Inicio</b></button>
+    </header>
+    <hr>
+    <main>
+        <form action="" id="formulario">
+            <input type="text" id="usuario" placeholder="Ingresa un usuario" required minlength="2" maxlength="4" autocomplete="off">
+
+            <input type="password" id="contraseña" placeholder="Ingresa tu contraseña" required minlength="2"
+                maxlength="3">
+
+            <button type="submit">Ingresar</button>
+
+            <span id="alerta"></span>
+        </form>
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

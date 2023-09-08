@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>ATM | Alan Alvarado | Interfaz</title>
+</head>
+<body>
+    <header>
+        <p>ATM | Alan Alvarado</p>
+        <button onclick="pantallaInicio()" id="regreso"><b>Inicio</b></button>
+    </header>
+    <hr>
+    <main>
+        <section><p class="pantalla" id="pantalla"></p></section>
+        <section class="botones">
+            <button onclick="consultarSaldo()" class="btnCajero" id="btnConsultar">Consultar saldo</button>
+            <button onclick="ingresarMonto()" class="btnCajero" id="btnIngresar">Ingresar monto</button>
+            <button class="btnCajero" id="btnRetirar">Retirar monto</button>
+        </section>
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
